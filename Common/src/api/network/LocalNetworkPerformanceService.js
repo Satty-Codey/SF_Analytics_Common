@@ -5,6 +5,9 @@ import type {NetworkJson, NetworkPerformanceService} from 'Common/src/api/networ
 /**
  * REST version of the API for Network Details.
  * Upload speed, download speed, latency, octane score
+
+ *  @author anunay.aatipamula
+ *  @since 244
  */
 export class LocalNetworkPerformanceService implements NetworkPerformanceService {
 	async getDownloadSpeed(size: number): Promise<NetworkJson> {
