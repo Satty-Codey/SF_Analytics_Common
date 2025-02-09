@@ -6,6 +6,7 @@ const MILLIS_PER_HOUR = 60 * 60 * 1000;
 /**
  * The cookie jar.
  *
+ * @author zuye.zheng
  */
 
 /**
